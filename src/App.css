@@ -1,0 +1,79 @@
+input {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  border: none;
+  border-bottom: 1px solid #c9d1d9;
+  padding: 8px;
+  margin-right: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.Profile {
+  background-color: #0d1117;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 35%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  
+}
+
+button {
+  background-color: lightslategray;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles for Result component */
+.Result {
+  margin-top: 16px;
+}
+
+.Result ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Result li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color:aliceblue;
+  border-radius: 2px;
+}
+
+.Result li h3 {
+  margin-left: 16px;
+  color: #c9d1d9;
+}
+
+.Result li img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
